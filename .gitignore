@@ -49,3 +49,4 @@ app.*.map.json
 # Video generator output
 output/
 *.zip
+!video_generator_bundle.zip
