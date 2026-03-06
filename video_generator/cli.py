@@ -12,6 +12,7 @@ Full pipeline: prompt -> script -> speech -> visuals -> subtitles -> mix -> rend
 """
 
 import argparse
+import json
 import logging
 import sys
 from pathlib import Path
@@ -327,5 +328,4 @@ def _run_batch(batch_file: str, config: dict, base_output_dir: str) -> int:
 
 
 if __name__ == "__main__":
-    import json
     sys.exit(main())
