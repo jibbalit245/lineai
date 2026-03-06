@@ -21,6 +21,8 @@ DEFAULT_CONFIG: dict[str, Any] = {
     "anthropic_model": "claude-sonnet-4-20250514",
     "openai_model": "gpt-4o",
     "groq_model": "llama-3.3-70b-versatile",
+    "script_style": "engaging",
+    "target_audience": "general",
 
     # --- Text-to-Speech ---
     "tts_backend": "gtts",             # gtts | pyttsx3 | elevenlabs
@@ -43,24 +45,45 @@ DEFAULT_CONFIG: dict[str, Any] = {
     "subtitle_font_size": 48,
     "subtitle_color": "&H00FFFFFF",
     "subtitle_outline_color": "&H00000000",
+    "subtitle_shadow_color": "&H80000000",
+    "subtitle_highlight_color": "&H0000FFFF",
+    "subtitle_karaoke": True,
+    "subtitle_karaoke_style": "smooth",  # smooth | instant | glow
     "burn_subtitles": True,
 
     # --- Audio Mixing ---
     "background_music_path": None,
     "music_volume_db": -18,
     "duck_amount_db": -12,
+    "duck_fade_ms": 300,
     "music_fade_ms": 2000,
+    "narration_pad_ms": 500,
 
     # --- Video Assembly ---
     "fps": 30,
     "transition_duration": 0.8,
+    "transition_style": "mixed",        # mixed | crossfade | wipe_left | wipe_right | slide_up | zoom_through | dissolve
     "ken_burns": True,
     "color_grading": True,
     "contrast_factor": 1.1,
     "saturation_factor": 1.15,
+    "tint_mode": "warm",               # warm | cool | neutral
+    "highlight_rolloff": 0.95,
+    "vignette": True,
+    "film_grain": False,
+    "letterbox": False,
+    "letterbox_ratio": 2.39,
     "codec": "libx264",
     "audio_codec": "aac",
     "bitrate": "5000k",
+
+    # --- Intro / Outro ---
+    "intro_text": None,
+    "intro_subtitle": None,
+    "intro_duration": 3.0,
+    "outro_text": None,
+    "outro_subtitle": "Thanks for watching!",
+    "outro_duration": 3.0,
 }
 
 

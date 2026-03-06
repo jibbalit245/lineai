@@ -6,4 +6,4 @@ Converts text prompts or scripts into fully produced videos with narration,
 visuals, subtitles, transitions, and background music.
 """
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
