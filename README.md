@@ -5,6 +5,15 @@ Open source mobile client for [Groq](https://groq.com/)
 > /!\ This project is still in early stages. Please report any bugs or
 > suggestions on [GitHub](https://github.com/stevenosse/lineai/issues)
 
+## Download
+
+| Platform | Link |
+|----------|------|
+| Android (APK) | [Download latest release](https://github.com/jibbalit245/lineai/releases/latest/download/lineai.apk) |
+| All releases | [View all releases](https://github.com/jibbalit245/lineai/releases) |
+
+> To install the APK on Android, you may need to enable "Install from unknown sources" in your device settings.
+
 ## Getting started
 
 
