@@ -1,0 +1,29 @@
+# ===== Core Dependencies (always needed) =====
+moviepy>=1.0.3
+Pillow>=10.0.0
+pydub>=0.25.1
+mutagen>=1.47.0
+gTTS>=2.5.0
+numpy>=1.24.0
+
+# ===== Optional: Premium TTS =====
+# elevenlabs>=1.0.0
+# pyttsx3>=2.90
+
+# ===== Optional: AI Script Generation =====
+# anthropic>=0.40.0
+# openai>=1.50.0
+# groq>=0.11.0
+
+# ===== Optional: AI Image Generation =====
+# (uses openai package above for DALL-E)
+
+# ===== Optional: Whisper Subtitles =====
+# openai-whisper>=20231117
+
+# ===== Optional: YAML Config Support =====
+# pyyaml>=6.0
+
+# ===== System Dependencies (install separately) =====
+# ffmpeg (required - install via: apt install ffmpeg / brew install ffmpeg)
+# imagemagick (optional - for advanced text rendering)

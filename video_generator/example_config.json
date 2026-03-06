@@ -1,0 +1,29 @@
+{
+  "output_dir": "output",
+
+  "script_backend": "offline",
+  "anthropic_model": "claude-sonnet-4-20250514",
+
+  "tts_backend": "gtts",
+  "tts_language": "en",
+
+  "visual_backend": "programmatic",
+  "video_format": "landscape",
+
+  "subtitle_backend": "estimated",
+  "burn_subtitles": true,
+  "subtitle_font": "Arial",
+  "subtitle_font_size": 48,
+
+  "background_music_path": null,
+  "music_volume_db": -18,
+  "duck_amount_db": -12,
+
+  "fps": 30,
+  "transition_duration": 0.8,
+  "ken_burns": true,
+  "color_grading": true,
+  "contrast_factor": 1.1,
+  "saturation_factor": 1.15,
+  "bitrate": "5000k"
+}
