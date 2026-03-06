@@ -45,3 +45,6 @@ app.*.map.json
 
 .fvm/
 .vscode/
+
+# Video generator output
+output/
